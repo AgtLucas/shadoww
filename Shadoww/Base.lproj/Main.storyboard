@@ -37,6 +37,14 @@
                                     <rect key="frame" x="161" y="375" width="78" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsN-78-Y3w">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Stop"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="184" y="526" width="32" height="30"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -50,6 +58,7 @@
                             <mask key="subviews">
                                 <exclude reference="UVR-Zo-GnS"/>
                                 <exclude reference="jgd-Jm-gir"/>
+                                <exclude reference="gsN-78-Y3w"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="7oe-gC-lZs"/>
@@ -62,6 +71,7 @@
                             <mask key="subviews">
                                 <include reference="UVR-Zo-GnS"/>
                                 <include reference="jgd-Jm-gir"/>
+                                <include reference="gsN-78-Y3w"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="7oe-gC-lZs"/>
