@@ -41,9 +41,6 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" image="stop"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="176" y="511" width="50" height="50"/>
-                                </variation>
                                 <connections>
                                     <action selector="stopRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2dg-rH-6Vv"/>
                                 </connections>
@@ -52,11 +49,12 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="gsN-78-Y3w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1jY-dq-Ur0"/>
                             <constraint firstItem="UVR-Zo-GnS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7oe-gC-lZs"/>
+                            <constraint firstItem="gsN-78-Y3w" firstAttribute="top" secondItem="UVR-Zo-GnS" secondAttribute="bottom" constant="143" id="8gh-du-55X"/>
                             <constraint firstItem="jgd-Jm-gir" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Faj-pT-H9u"/>
                             <constraint firstItem="jgd-Jm-gir" firstAttribute="top" secondItem="UVR-Zo-GnS" secondAttribute="bottom" constant="25" id="WYn-Ei-ssq"/>
                             <constraint firstItem="UVR-Zo-GnS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kh4-Lt-qw8"/>
-                            <constraint firstItem="gsN-78-Y3w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wXk-zv-mVS"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -69,7 +67,8 @@
                                 <exclude reference="kh4-Lt-qw8"/>
                                 <exclude reference="Faj-pT-H9u"/>
                                 <exclude reference="WYn-Ei-ssq"/>
-                                <exclude reference="wXk-zv-mVS"/>
+                                <exclude reference="1jY-dq-Ur0"/>
+                                <exclude reference="8gh-du-55X"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -83,7 +82,8 @@
                                 <include reference="kh4-Lt-qw8"/>
                                 <include reference="Faj-pT-H9u"/>
                                 <include reference="WYn-Ei-ssq"/>
-                                <include reference="wXk-zv-mVS"/>
+                                <include reference="1jY-dq-Ur0"/>
+                                <include reference="8gh-du-55X"/>
                             </mask>
                         </variation>
                     </view>
