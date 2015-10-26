@@ -37,13 +37,16 @@
                                     <rect key="frame" x="161" y="375" width="78" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsN-78-Y3w">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsN-78-Y3w">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Stop"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="184" y="526" width="32" height="30"/>
+                                <state key="normal" image="stop"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="176" y="511" width="50" height="50"/>
                                 </variation>
+                                <connections>
+                                    <action selector="stopRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2dg-rH-6Vv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -53,6 +56,7 @@
                             <constraint firstItem="jgd-Jm-gir" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Faj-pT-H9u"/>
                             <constraint firstItem="jgd-Jm-gir" firstAttribute="top" secondItem="UVR-Zo-GnS" secondAttribute="bottom" constant="25" id="WYn-Ei-ssq"/>
                             <constraint firstItem="UVR-Zo-GnS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kh4-Lt-qw8"/>
+                            <constraint firstItem="gsN-78-Y3w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wXk-zv-mVS"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -65,6 +69,7 @@
                                 <exclude reference="kh4-Lt-qw8"/>
                                 <exclude reference="Faj-pT-H9u"/>
                                 <exclude reference="WYn-Ei-ssq"/>
+                                <exclude reference="wXk-zv-mVS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -78,6 +83,7 @@
                                 <include reference="kh4-Lt-qw8"/>
                                 <include reference="Faj-pT-H9u"/>
                                 <include reference="WYn-Ei-ssq"/>
+                                <include reference="wXk-zv-mVS"/>
                             </mask>
                         </variation>
                     </view>
@@ -92,5 +98,6 @@
     </scenes>
     <resources>
         <image name="microphone" width="100" height="100"/>
+        <image name="stop" width="50" height="50"/>
     </resources>
 </document>
