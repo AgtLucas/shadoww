@@ -27,29 +27,47 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7t-xB-hfw"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recording" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgd-Jm-gir">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.11983536073825503" green="0.20593015939597314" blue="0.3285182466442953" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="161" y="375" width="78" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UVR-Zo-GnS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7oe-gC-lZs"/>
+                            <constraint firstItem="jgd-Jm-gir" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Faj-pT-H9u"/>
+                            <constraint firstItem="jgd-Jm-gir" firstAttribute="top" secondItem="UVR-Zo-GnS" secondAttribute="bottom" constant="25" id="WYn-Ei-ssq"/>
                             <constraint firstItem="UVR-Zo-GnS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kh4-Lt-qw8"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="UVR-Zo-GnS"/>
+                                <exclude reference="jgd-Jm-gir"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="7oe-gC-lZs"/>
                                 <exclude reference="kh4-Lt-qw8"/>
+                                <exclude reference="Faj-pT-H9u"/>
+                                <exclude reference="WYn-Ei-ssq"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="UVR-Zo-GnS"/>
+                                <include reference="jgd-Jm-gir"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="7oe-gC-lZs"/>
                                 <include reference="kh4-Lt-qw8"/>
+                                <include reference="Faj-pT-H9u"/>
+                                <include reference="WYn-Ei-ssq"/>
                             </mask>
                         </variation>
                     </view>
