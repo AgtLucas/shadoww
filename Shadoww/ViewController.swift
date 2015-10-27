@@ -23,9 +23,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        stopButton.hidden = true
+    }
 
     @IBAction func recordAudio(sender: UIButton) {
         recordingInProgress.hidden = false
+        stopButton.hidden = false
         print("Recording!")
     }
 
