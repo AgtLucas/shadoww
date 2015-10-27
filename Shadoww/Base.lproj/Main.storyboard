@@ -20,9 +20,6 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" image="microphone"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="151" y="250" width="100" height="100"/>
-                                </variation>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7t-xB-hfw"/>
                                 </connections>
@@ -33,9 +30,6 @@
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" red="0.11983536073825503" green="0.20593015939597314" blue="0.3285182466442953" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="161" y="375" width="78" height="21"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsN-78-Y3w">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -65,10 +59,10 @@
                             <mask key="constraints">
                                 <exclude reference="7oe-gC-lZs"/>
                                 <exclude reference="kh4-Lt-qw8"/>
-                                <exclude reference="Faj-pT-H9u"/>
-                                <exclude reference="WYn-Ei-ssq"/>
                                 <exclude reference="1jY-dq-Ur0"/>
                                 <exclude reference="8gh-du-55X"/>
+                                <exclude reference="Faj-pT-H9u"/>
+                                <exclude reference="WYn-Ei-ssq"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -80,15 +74,17 @@
                             <mask key="constraints">
                                 <include reference="7oe-gC-lZs"/>
                                 <include reference="kh4-Lt-qw8"/>
-                                <include reference="Faj-pT-H9u"/>
-                                <include reference="WYn-Ei-ssq"/>
                                 <include reference="1jY-dq-Ur0"/>
                                 <include reference="8gh-du-55X"/>
+                                <include reference="Faj-pT-H9u"/>
+                                <include reference="WYn-Ei-ssq"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="recordButton" destination="UVR-Zo-GnS" id="nRn-Qc-vwt"/>
                         <outlet property="recordingInProgress" destination="jgd-Jm-gir" id="c3D-h5-AyP"/>
+                        <outlet property="stopButton" destination="gsN-78-Y3w" id="Sbe-C4-eKE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
