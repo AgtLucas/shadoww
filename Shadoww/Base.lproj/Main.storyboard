@@ -55,6 +55,7 @@
                                 <state key="normal" image="stop"/>
                                 <connections>
                                     <action selector="stopRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2dg-rH-6Vv"/>
+                                    <segue destination="18Q-8h-PaI" kind="show" id="Aht-Uu-IjG"/>
                                 </connections>
                             </button>
                         </subviews>
