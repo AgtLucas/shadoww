@@ -25,12 +25,10 @@
                                     <action selector="playSlowAudio:" destination="18Q-8h-PaI" eventType="touchUpInside" id="UNH-Sr-D9V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jY4-f2-bez">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jY4-f2-bez">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="272" y="154" width="46" height="30"/>
-                                </variation>
+                                <state key="normal" image="fastIcon"/>
                             </button>
                         </subviews>
                         <animations/>
@@ -38,6 +36,8 @@
                         <constraints>
                             <constraint firstItem="Msx-ZJ-8GU" firstAttribute="leading" secondItem="QDS-Xr-LOl" secondAttribute="leadingMargin" constant="30" id="FWy-IX-4c0"/>
                             <constraint firstItem="Msx-ZJ-8GU" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="50" id="GIc-po-Eu1"/>
+                            <constraint firstItem="jY4-f2-bez" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="50" id="NyZ-88-6l9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jY4-f2-bez" secondAttribute="trailing" constant="30" id="kUh-oc-UnI"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -47,6 +47,8 @@
                             <mask key="constraints">
                                 <exclude reference="FWy-IX-4c0"/>
                                 <exclude reference="GIc-po-Eu1"/>
+                                <exclude reference="NyZ-88-6l9"/>
+                                <exclude reference="kUh-oc-UnI"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -57,6 +59,8 @@
                             <mask key="constraints">
                                 <include reference="FWy-IX-4c0"/>
                                 <include reference="GIc-po-Eu1"/>
+                                <include reference="NyZ-88-6l9"/>
+                                <include reference="kUh-oc-UnI"/>
                             </mask>
                         </variation>
                     </view>
@@ -175,6 +179,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="fastIcon" width="100" height="100"/>
         <image name="microphone" width="100" height="100"/>
         <image name="slowIcon" width="100" height="100"/>
         <image name="stop" width="50" height="50"/>
