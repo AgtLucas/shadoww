@@ -21,6 +21,8 @@ class PlaySoundsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func playSlowAudio(sender: UIButton) {
+    }
 
     /*
     // MARK: - Navigation
