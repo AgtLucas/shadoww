@@ -19,7 +19,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Msx-ZJ-8GU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="51" y="141" width="46" height="30"/>
                                 </variation>
