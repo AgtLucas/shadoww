@@ -12,6 +12,7 @@
 		A00E04271BDED31600EAB18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00E04251BDED31600EAB18B /* Main.storyboard */; };
 		A00E04291BDED31600EAB18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00E04281BDED31600EAB18B /* Assets.xcassets */; };
 		A00E042C1BDED31600EAB18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00E042A1BDED31600EAB18B /* LaunchScreen.storyboard */; };
+		A03CB3451BE1754D004656D9 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CB3441BE1754D004656D9 /* PlaySoundsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A00E04281BDED31600EAB18B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A00E042B1BDED31600EAB18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A00E042D1BDED31600EAB18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03CB3441BE1754D004656D9 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A00E04211BDED31600EAB18B /* AppDelegate.swift */,
 				A00E04231BDED31600EAB18B /* ViewController.swift */,
 				A00E04251BDED31600EAB18B /* Main.storyboard */,
+				A03CB3441BE1754D004656D9 /* PlaySoundsViewController.swift */,
 				A00E04281BDED31600EAB18B /* Assets.xcassets */,
 				A00E042A1BDED31600EAB18B /* LaunchScreen.storyboard */,
 				A00E042D1BDED31600EAB18B /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00E04241BDED31600EAB18B /* ViewController.swift in Sources */,
+				A03CB3451BE1754D004656D9 /* PlaySoundsViewController.swift in Sources */,
 				A00E04221BDED31600EAB18B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 				A00E04321BDED31600EAB18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
