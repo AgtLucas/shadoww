@@ -15,7 +15,12 @@ class PlaySoundsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        var filePath = NSBundle.mainBundle().pathForResource("movie_quote", ofType: "mp3")
+        if let filePath = NSBundle.mainBundle().pathForResource("movie_quote", ofType: "mp3") {
+            let filePathUrl = NSURL.fileURLWithPath(filePath)
+            var audioPlayer = try! AVAudioPlayer(contentsOfURL: filePathUrl)
+        } else {
+            print("The filePath is empty.")
+        }
     }
 
     override func didReceiveMemoryWarning() {
