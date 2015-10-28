@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="Ci1-fW-iZF">
             <objects>
-                <viewController id="18Q-8h-PaI" sceneMemberID="viewController">
+                <viewController id="18Q-8h-PaI" customClass="PlaySoundsViewController" customModule="Shadoww" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JW9-El-cFm"/>
                         <viewControllerLayoutGuide type="bottom" id="0J9-gu-K2z"/>
