@@ -29,8 +29,8 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Msx-ZJ-8GU" firstAttribute="leading" secondItem="QDS-Xr-LOl" secondAttribute="leadingMargin" constant="25" id="FWy-IX-4c0"/>
-                            <constraint firstItem="Msx-ZJ-8GU" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="52" id="GIc-po-Eu1"/>
+                            <constraint firstItem="Msx-ZJ-8GU" firstAttribute="leading" secondItem="QDS-Xr-LOl" secondAttribute="leadingMargin" constant="30" id="FWy-IX-4c0"/>
+                            <constraint firstItem="Msx-ZJ-8GU" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="50" id="GIc-po-Eu1"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
