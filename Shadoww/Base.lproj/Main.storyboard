@@ -29,6 +29,9 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" image="fastIcon"/>
+                                <connections>
+                                    <action selector="playFastAudio:" destination="18Q-8h-PaI" eventType="touchUpInside" id="gOO-bM-3FY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
