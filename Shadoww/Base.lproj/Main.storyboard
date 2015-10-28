@@ -48,9 +48,9 @@
                             <constraint firstItem="2Xm-az-CKD" firstAttribute="centerX" secondItem="QDS-Xr-LOl" secondAttribute="centerX" id="47g-FP-Wya"/>
                             <constraint firstItem="Msx-ZJ-8GU" firstAttribute="leading" secondItem="QDS-Xr-LOl" secondAttribute="leadingMargin" constant="30" id="FWy-IX-4c0"/>
                             <constraint firstItem="Msx-ZJ-8GU" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="50" id="GIc-po-Eu1"/>
+                            <constraint firstItem="0J9-gu-K2z" firstAttribute="top" secondItem="2Xm-az-CKD" secondAttribute="bottom" constant="60" id="Jvw-lV-za5"/>
                             <constraint firstItem="jY4-f2-bez" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="50" id="NyZ-88-6l9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jY4-f2-bez" secondAttribute="trailing" constant="30" id="kUh-oc-UnI"/>
-                            <constraint firstItem="2Xm-az-CKD" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="426" id="kyU-2H-lQL"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -64,7 +64,7 @@
                                 <exclude reference="NyZ-88-6l9"/>
                                 <exclude reference="kUh-oc-UnI"/>
                                 <exclude reference="47g-FP-Wya"/>
-                                <exclude reference="kyU-2H-lQL"/>
+                                <exclude reference="Jvw-lV-za5"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,7 +79,7 @@
                                 <include reference="NyZ-88-6l9"/>
                                 <include reference="kUh-oc-UnI"/>
                                 <include reference="47g-FP-Wya"/>
-                                <include reference="kyU-2H-lQL"/>
+                                <include reference="Jvw-lV-za5"/>
                             </mask>
                         </variation>
                     </view>
