@@ -33,37 +33,53 @@
                                     <action selector="playFastAudio:" destination="18Q-8h-PaI" eventType="touchUpInside" id="gOO-bM-3FY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xm-az-CKD">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" image="stop"/>
+                                <connections>
+                                    <action selector="stopAudio:" destination="18Q-8h-PaI" eventType="touchUpInside" id="Nxt-e8-KwD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2Xm-az-CKD" firstAttribute="centerX" secondItem="QDS-Xr-LOl" secondAttribute="centerX" id="47g-FP-Wya"/>
                             <constraint firstItem="Msx-ZJ-8GU" firstAttribute="leading" secondItem="QDS-Xr-LOl" secondAttribute="leadingMargin" constant="30" id="FWy-IX-4c0"/>
                             <constraint firstItem="Msx-ZJ-8GU" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="50" id="GIc-po-Eu1"/>
                             <constraint firstItem="jY4-f2-bez" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="50" id="NyZ-88-6l9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jY4-f2-bez" secondAttribute="trailing" constant="30" id="kUh-oc-UnI"/>
+                            <constraint firstItem="2Xm-az-CKD" firstAttribute="top" secondItem="JW9-El-cFm" secondAttribute="bottom" constant="426" id="kyU-2H-lQL"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Msx-ZJ-8GU"/>
                                 <exclude reference="jY4-f2-bez"/>
+                                <exclude reference="2Xm-az-CKD"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="FWy-IX-4c0"/>
                                 <exclude reference="GIc-po-Eu1"/>
                                 <exclude reference="NyZ-88-6l9"/>
                                 <exclude reference="kUh-oc-UnI"/>
+                                <exclude reference="47g-FP-Wya"/>
+                                <exclude reference="kyU-2H-lQL"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Msx-ZJ-8GU"/>
                                 <include reference="jY4-f2-bez"/>
+                                <include reference="2Xm-az-CKD"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="FWy-IX-4c0"/>
                                 <include reference="GIc-po-Eu1"/>
                                 <include reference="NyZ-88-6l9"/>
                                 <include reference="kUh-oc-UnI"/>
+                                <include reference="47g-FP-Wya"/>
+                                <include reference="kyU-2H-lQL"/>
                             </mask>
                         </variation>
                     </view>
