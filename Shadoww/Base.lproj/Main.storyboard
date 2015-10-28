@@ -25,6 +25,13 @@
                                     <action selector="playSlowAudio:" destination="18Q-8h-PaI" eventType="touchUpInside" id="UNH-Sr-D9V"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jY4-f2-bez">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="272" y="154" width="46" height="30"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -35,6 +42,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Msx-ZJ-8GU"/>
+                                <exclude reference="jY4-f2-bez"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="FWy-IX-4c0"/>
@@ -44,6 +52,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Msx-ZJ-8GU"/>
+                                <include reference="jY4-f2-bez"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="FWy-IX-4c0"/>
