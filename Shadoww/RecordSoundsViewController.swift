@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordSoundsViewController.swift
 //  Shadoww
 //
 //  Created by Lucas da Silva on 10/26/15.
