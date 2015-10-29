@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VkP-Ck-gI1">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -59,12 +60,12 @@
                                 <exclude reference="2Xm-az-CKD"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="Jvw-lV-za5"/>
+                                <exclude reference="47g-FP-Wya"/>
                                 <exclude reference="FWy-IX-4c0"/>
                                 <exclude reference="GIc-po-Eu1"/>
                                 <exclude reference="NyZ-88-6l9"/>
                                 <exclude reference="kUh-oc-UnI"/>
-                                <exclude reference="47g-FP-Wya"/>
-                                <exclude reference="Jvw-lV-za5"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -74,12 +75,12 @@
                                 <include reference="2Xm-az-CKD"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="Jvw-lV-za5"/>
+                                <include reference="47g-FP-Wya"/>
                                 <include reference="FWy-IX-4c0"/>
                                 <include reference="GIc-po-Eu1"/>
                                 <include reference="NyZ-88-6l9"/>
                                 <include reference="kUh-oc-UnI"/>
-                                <include reference="47g-FP-Wya"/>
-                                <include reference="Jvw-lV-za5"/>
                             </mask>
                         </variation>
                     </view>
@@ -91,7 +92,7 @@
         <!--Record-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shadoww" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="Shadoww" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
